@@ -1,0 +1,85 @@
+/* Body Styles */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    margin: 0;
+    background-image: url(./back.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: Arial, sans-serif; /* Add a fallback font */
+}
+
+/* Signup Form Styles */
+.signupform {
+    width: 400px;
+    height: 465px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 10px;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0px 6px 12px -2px rgba(50, 50, 93, 0.25), 0px 3px 7px -3px rgba(0, 0, 0, 0.3);
+    background-color: snow;
+}
+
+/* Heading Styles */
+.signupform h2 {
+    text-align: center;
+    letter-spacing: 1.2px;
+    margin-bottom: 20px; /* Add some space below the heading */
+}
+
+/* Form Element Styles */
+form input {
+    outline: none;
+    width: 100%; /* Ensure input fields span the full width of the form */
+    padding: 10px; /* Add some padding for better spacing */
+    margin-bottom: 15px; /* Add some space below each input field */
+    border: 1px solid #ccc; /* Add a border for input fields */
+    border-radius: 5px; /* Round the input field corners */
+}
+
+form label {
+    font-weight: bold;
+    letter-spacing: 0.8px;
+}
+
+/* Button Styles */
+button {
+    background-color: #007bff; /* Change button background color */
+    color: white; /* Change button text color */
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3; /* Change button background color on hover */
+    box-shadow: 0px 15px 25px rgba(229, 26, 26, 0.15); /* Add a box-shadow on hover */
+}
+
+/* Error Alert Styles */
+.error-alert {
+    background-color: pink;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin: 6px 0;
+    text-align: center;
+    padding: 4px;
+}
+
+.error-alert img {
+    height: 15px;
+    margin-left: 5px;
+}
+
+/* Centered Text Styles */
+form p {
+    text-align: center;
+}
